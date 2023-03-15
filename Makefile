@@ -1,6 +1,5 @@
 install:
-    chmod +x `pwd`/svg2font.sh
-	ln -s `pwd`/svg2font.sh /usr/local/bin/svg2font.sh
+	ln -s `pwd`/svg2font /usr/local/bin/svg2font
 
 uninstall:
-	rm /usr/local/bin/svg2font.sh
+	rm /usr/local/bin/svg2font
