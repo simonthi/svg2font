@@ -1,0 +1,7 @@
+cd svg
+
+for i in *; do sed -i '' -e "s/<path.*style=\"stroke:rgb(100.000000%,0.000000%,0.000000%);.*fill: none;\"\/>//" $i; done
+
+cd ..
+
+fontforge -script svg2font.py
